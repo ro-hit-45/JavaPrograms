@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class Ques12 {
+
+    public static void main(String[] args) {
+        int m,s;
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the first value of integer=");
+        int a = sc.nextInt();
+        System.out.print("nter the second value of integer=");
+        int b = sc.nextInt();
+        m=a/b;
+        s=a%b;
+        System.out.println("WE CAN DIVIDED "+ m +" TIMES "+ a +" BY "+ b +" AND THE WILL BE LEFT "+s);
+    }
+}
