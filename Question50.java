@@ -1,12 +1,12 @@
 
-//write a java program to print 1 to 100 numbers  using loop;
+//write a java program to print my name 100 times ;
 import java.util.*;
 
-class Question49 {
+class Question50 {
     public static void main(String[] args) {
         int i;
         for (i = 1; i <= 100; i++) {
-            System.out.println(i);
+            System.out.println(" Kumar Rohit");
         }
     }
 }
