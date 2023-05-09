@@ -2,9 +2,9 @@
 //WRITE A JAVA PROGRAM TO PRINT THE ODD NUMBERS ;
 import java.util.*;
 
-class Question55 {
+class Question56 {
     public static void main(String[] args) {
-        int a[] = { 3, 5, 7, 11, 13, 17, 19, 23, 29 };
+        int a[] = { 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };
         for (int c : a) {
             System.out.println(c);
         }
