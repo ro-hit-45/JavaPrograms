@@ -1,18 +1,18 @@
 
-// WRITE A JAVA PROGRAM TAKE TWO INTEGER VALUE FROM THE USER AND PRINT THIRE MULTIPLICATION.
+// WRITE A JAVA PROGRAM TAKE TWO INTEGER VALUE FROM THE USER ,  SUBSTRACT AND PRINT IT.
 
 import java.util.Scanner;
 
-public class Question66 {
+public class Question67 {
     public static void main(String[] args) {
-        int a, b, multi;
+        int a, b, sub;
         Scanner m = new Scanner(System.in);
         System.out.println("Enter the first value:");
         a = m.nextInt();
         System.out.println("Enter the second value:");
         b = m.nextInt();
-        multi = a * b;
-        System.out.println("Multiplication of entered value is = " + multi);
+        sub = a / b;
+        System.out.println("final value is = " + sub);
     }
 
 }
